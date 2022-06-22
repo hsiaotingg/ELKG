@@ -58,7 +58,7 @@
 
 14. `sudo systemctl start kibana`
 15. `sudo systemctl restart kibana`
-16. 登入 http://自己ip:5601
+16. 登入 https://自己ip:5601
 
 ## Grafana 環境建置
 1.  `sudo apt-get install -y adduser libfontconfig1`
