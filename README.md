@@ -43,7 +43,8 @@
 11. `chown kibana /etc/kibana/ca/*`
 12. `/usr/share/elasticsearch/bin/elasticsearch-reset-password -i -u kibana_system` (設定ES密碼)
 13. `sudo nano /etc/kibana/kibana.yml` (進入yml後把下方程式碼，直接貼在最上層)
-
+  
+```    
     server.host: "0.0.0.0"
     elasticsearch.username: "kibana_system"
     elasticsearch.password: "密碼要設定"
@@ -53,9 +54,17 @@
     elasticsearch.hosts: ["https://自己ip:9200"]
     elasticsearch.ssl.certificateAuthorities: [ "/etc/kibana/ca/http_ca.crt" ]
     elasticsearch.ssl.verificationMode: none
+```
 
 14. `sudo systemctl start kibana`
-
 15. `sudo systemctl restart kibana`
+16. 登入 https://自己ip:5601
 
-16.登入 https://自己ip:9200
+## Grafana 環境建置
+1.  `sudo apt-get install -y adduser libfontconfig1`
+2.  `wget https://dl.grafana.com/enterprise/release/grafana-enterprise_9.0.0_amd64.deb`
+3.  `sudo dpkg -i grafana-enterprise_9.0.0_amd64.deb`
+4.  `sudo systemctl enable --now grafana-server`
+5.  `systemctl status grafana-server.service`
+6.  `sudo systemctl stop ufw`
+
