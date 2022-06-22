@@ -69,3 +69,4 @@
 6.  `sudo systemctl stop ufw`
 7.  在瀏覽器網址列輸入 http://你的ip:3000
 
+acvs
