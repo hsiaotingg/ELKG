@@ -1,6 +1,10 @@
 # ELK 與 Grafana 環境建置
+## Ubuntu20.04設定
+CPU : 4<br>
+基礎記憶體 : 4G<br>
+硬碟 : 40G<br>
 
-## Elasticsearch 環境建置
+### Elasticsearch 環境建置
 
 1. `sudo apt update ; sudo apt-get update`
 2. `sudo apt install apt-transport-https openjdk-11-jdk -y`
@@ -23,13 +27,13 @@
 16. `curl -k -u elastic:密碼 -XGET "https://localhost:9200"`
 17. 在瀏覽器網址列輸入 https://你的IP:9200/
 
-## Logstash 環境建置
+### Logstash 環境建置
 1. `wget https://artifacts.elastic.co/downloads/logstash/logstash-8.2.3-amd64.deb`
 2. `sudo dpkg -i logstash-8.2.3-amd64.deb`
 3. `sudo systemctl start logstash`
 4. `sudo systemctl stop logstash`
 
-## Kibana 環境建置
+### Kibana 環境建置
 1. `wget https://artifacts.elastic.co/downloads/kibana/kibana-8.2.3-amd64.deb`
 2. `sudo dpkg -i kibana-8.2.3-amd64.deb`
 3. `sudo sh /usr/share/elasticsearch/bin/elasticsearch-certutil ca --pem` 之後按enter
@@ -60,7 +64,7 @@
 15. `sudo systemctl restart kibana`
 16. 登入 https://自己ip:5601
 
-## Grafana 環境建置
+### Grafana 環境建置
 1.  `sudo apt-get install -y adduser libfontconfig1`
 2.  `wget https://dl.grafana.com/enterprise/release/grafana-enterprise_9.0.0_amd64.deb`
 3.  `sudo dpkg -i grafana-enterprise_9.0.0_amd64.deb`
