@@ -21,5 +21,5 @@ flowcharting的使用順序跟其他插件不太一樣，需要先繪圖再輸�
 <br>
 ##### Step3.設定資料來源
 每個繪製好的元素都可以綁定數據，所以需要新增資料或是監控來源。根據需求在qeury下指令，並在Ailas設定名稱，以便後續使用。<br>
-如果query的設定相似也可點選藍色框框複製再修改。
+如果query的設定相似也可點選藍色框框圖示複製再行修改。
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/source.png)
