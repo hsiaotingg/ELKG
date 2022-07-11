@@ -14,10 +14,10 @@ flowcharting的使用順序跟其他插件不太一樣，需要先繪圖再輸�
 開啟Grafana panel，視覺化選擇flowcharting，點開右側選單Flowchart，將Source Content預設的XML清除並貼上Step1製作的XML，左邊就會載入圖表了。<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/basic%20setting.png)
 -Edit Draw：線上編輯圖形<br>
--Prettify：格式化圖形代碼<br>
--Minify：合併圖形代碼<br>
--Compress/Encode：加密圖形代碼<br>
--Extract/Decode：解碼圖形代碼<br>
+-Prettify：增加XML換行，使其更易閱讀<br>
+-Minify：將XML的行數減少<br>
+-Compress/Encode：將XML加密<br>
+-Extract/Decode：解碼XML<br>
 <br>
 #### Step3.設定資料來源
 每個繪製好的元素都可以綁定數據，所以需要新增資料或是監控來源。根據需求在qeury下指令，並在Ailas設定名稱，以便後續使用。<br>
