@@ -2,7 +2,7 @@
 Grafana的插件之一。需先使用draw.io將需要的圖表畫出來，例如：系統監控圖、網路拓樸圖、技術架構圖等，都可以利用[draw.io](https://app.diagrams.net/)在線上快速製出圖表並匯出XML、PDF、PNG等類型，draw.io也是一款免費且開源的繪圖工具。<br>
 flowcharting可以將draw.io產出圖表的各個元素綁定數據資料，再藉由設定不同閥值、搭配不同顏色，使用者一眼就能清楚地看出各個服務或裝置的狀態，提升排查除錯的效率。<br> 
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/example.png)
-*圖片來源:https://grafana.com/grafana/plugins/agenty-flowcharting-panel/*
+*[圖片來源](https://grafana.com/grafana/plugins/agenty-flowcharting-panel/*)
 
 ### 操作與設定
 ##### Step1.繪圖
@@ -11,7 +11,7 @@ flowcharting的使用順序跟其他插件不太一樣，需要先繪圖再輸�
 
 ##### Step2.匯入Grafana
 (安裝指令```grafana-cli plugins install agenty-flowcharting-panel```)<br>
-開啟Grafana panel，視覺化選擇flowcharting，點開右側選單[flowchart]，將Source Content預設的XML清除並貼上Step1的XML，就會載入圖表了。<br>
+開啟Grafana panel，視覺化選擇flowcharting，點開右側選單Flowchart，將Source Content預設的XML清除並貼上Step1的XML，就會載入圖表了。<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/basic%20setting.png)
 -Edit Draw：線上編輯圖形<br>
 -Prettify：格式化圖形代碼<br>
@@ -25,7 +25,7 @@ flowcharting的使用順序跟其他插件不太一樣，需要先繪圖再輸�
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/source.png)
 
 ##### Step4.設定圖形顯示
-點選右側選單[Mapping]，開始進行數值的綁定及圖片顯示的設定
+點選右側選單Mapping，開始進行數值的綁定及圖片顯示的設定。<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/setting-1.png)
 Options<br>
 -Rule name：規則名稱<br>
@@ -35,3 +35,13 @@ Type<br>
 -Type：類別<br>
 -Unit：單位<br>
 -Decimals：保留小數的位數<br>
+![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/setting-2.png)
+Thresholds用來設定圖形展示的顏色變化<br>
+-Invert：倒序排列<br>
+-Gradiant：漸層色<br>
+-Icon state：顯示警示狀態<br>
+Tooltips開啟後，將滑鼠移動到圖形上，會自動顯示監控值
+![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/setting-3.png)
+-
+
+
