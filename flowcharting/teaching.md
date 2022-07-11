@@ -23,3 +23,15 @@ flowcharting的使用順序跟其他插件不太一樣，需要先繪圖再輸�
 每個繪製好的元素都可以綁定數據，所以需要新增資料或是監控來源。根據需求在qeury下指令，並在Ailas設定名稱，以便後續使用。<br>
 如果query的設定相似也可點選藍色框框圖示複製再行修改。
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/source.png)
+
+##### Step4.設定圖形顯示
+點選右側選單[Mapping]，開始進行數值的綁定及圖片顯示的設定
+![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/setting-1.png)
+Options<br>
+-Rule name：規則名稱<br>
+-Apply to metrics：要綁定的資料源(會出現Step3設定過的Ailas)(也支援正則表達)<br>
+-Aggregation：資料來源的聚合<br>
+Type<br>
+-Type：類別<br>
+-Unit：單位<br>
+-Decimals：保留小數的位數<br>
