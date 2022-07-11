@@ -11,7 +11,7 @@ flowcharting的使用順序跟其他插件不太一樣，需要先繪圖再輸�
 
 #### Step2.匯入Grafana
 (安裝指令```grafana-cli plugins install agenty-flowcharting-panel```)<br>
-開啟Grafana panel，視覺化選擇flowcharting，點開右側選單Flowchart，將Source Content預設的XML清除並貼上Step1的XML，就會載入圖表了。<br>
+開啟Grafana panel，視覺化選擇flowcharting，點開右側選單Flowchart，將Source Content預設的XML清除並貼上Step1製作的XML，左邊就會載入圖表了。<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/basic%20setting.png)
 -Edit Draw：線上編輯圖形<br>
 -Prettify：格式化圖形代碼<br>
@@ -21,7 +21,7 @@ flowcharting的使用順序跟其他插件不太一樣，需要先繪圖再輸�
 <br>
 #### Step3.設定資料來源
 每個繪製好的元素都可以綁定數據，所以需要新增資料或是監控來源。根據需求在qeury下指令，並在Ailas設定名稱，以便後續使用。<br>
-如果query的設定相似也可點選藍色框框圖示複製再行修改。
+如果query的設定相似也可點選藍色框框的按鈕複製再行修改。
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/source.png)
 <br>
 #### Step4.設定圖形顯示
