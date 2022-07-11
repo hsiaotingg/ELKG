@@ -10,5 +10,10 @@ flowcharting的使用順序跟其他插件不太一樣，需要先繪圖再輸�
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/drawio.png)
 
 ##### Step2.匯入Grafana
-開啟Grafana panel，視覺化選擇flowcharting，點開flowchart，將預設的XML清除並貼上剛才做好的XML，就會跑出圖表了
-
+開啟Grafana panel，視覺化選擇flowcharting，點開flowchart選單，將Source Content預設的XML清除並貼上剛才做好的XML，就會跑出圖表了。<br>
+![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/basic%20setting.png)
+-Edit Draw：線上編輯圖形<br>
+-Prettify：格式化圖形代碼<br>
+-Minify：合併圖形代碼<br>
+-Compress/Encode：加密圖形代碼<br>
+-Extract/Decode：解碼圖形代碼<br>
