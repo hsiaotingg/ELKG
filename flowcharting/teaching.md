@@ -10,7 +10,7 @@ flowcharting的使用順序跟其他插件不太一樣，需要先繪圖再輸�
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/drawio.png)
 
 #### Step2.匯入Grafana
-(安裝指令```grafana-cli plugins install agenty-flowcharting-panel```)<br>
+(須先進行安裝，安裝指令```grafana-cli plugins install agenty-flowcharting-panel```)<br>
 開啟Grafana panel，視覺化選擇flowcharting，點開右側選單Flowchart，將Source Content預設的XML清除並貼上Step1製作的XML，左邊就會載入圖表了。<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/basic%20setting.png)
 -Edit Draw：線上編輯圖形<br>
