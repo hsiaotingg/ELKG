@@ -20,8 +20,8 @@ flowcharting的使用順序跟其他插件不太一樣，需要先繪圖再輸�
 -Extract/Decode：解碼XML<br>
 <br>
 #### Step3.設定資料來源
-每個繪製好的元素都可以綁定數據，所以需要新增資料或是監控來源。根據需求在query下指令，並在Ailas設定名稱，以便後續使用。<br>
-如果query的設定相似也可點選藍色框框的按鈕複製再行修改。
+每個繪製好的元素都可以綁定數據，所以需要新增資料或是監控來源。根據需求在Query下指令，並在Alias設定名稱，以便後續使用。<br>
+如果Query的設定相似也可點選藍色框框的按鈕複製再行修改。
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/source.png)
 <br>
 #### Step4.設定圖形顯示
@@ -29,7 +29,7 @@ flowcharting的使用順序跟其他插件不太一樣，需要先繪圖再輸�
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/setting-1.png)
 Options<br>
 -Rule name：規則名稱<br>
--Apply to metrics：要綁定的資料源，**會出現Step3設定過的Ailas的選單**(也支援正則表達)<br>
+-Apply to metrics：要綁定的資料源，**會出現Step3設定過的Alias的選單**(也支援正則表達)<br>
 -Aggregation：資料來源的聚合<br>
 Type<br>
 -Type：類別<br>
@@ -50,7 +50,7 @@ Graph Tooltips開啟後，可設定彈出圖形產生的效果<br>
 將要呈現的資料綁定到相對應的圖形
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/setting4.png)
 Color/Tooltip Mappings：處理顏色顯示<br>
-Label/Text Mappings：處理數值對應、query結果<br>
+Label/Text Mappings：處理數值對應、Query結果<br>
 綁定的方式可以透過圖形的id(可在選單inspect查詢或修改)或label，也可以點選上圖中1的按鈕，變色後再點選想要綁定的圖形，就會將該圖形的id傳送到what裡<br>
 -When：觸發時間<br>
 -How：填充型態或內容<br>
