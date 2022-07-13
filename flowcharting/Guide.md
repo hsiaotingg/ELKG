@@ -29,7 +29,7 @@ flowcharting的使用順序跟其他插件不太一樣，需要先繪圖再輸�
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/setting-1.png)
 Options<br>
 -Rule name：規則名稱<br>
--Apply to metrics：要綁定的資料源(會出現Step3設定過的Ailas)(也支援正則表達)<br>
+-Apply to metrics：要綁定的資料源，會出現Step3設定過的Ailas的選單(也支援正則表達)<br>
 -Aggregation：資料來源的聚合<br>
 Type<br>
 -Type：類別<br>
@@ -39,7 +39,7 @@ Type<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/setting-2.png)
 Thresholds用來設定圖形展示的顏色變化<br>
 -Invert：倒序排列<br>
--Gradiant：漸層色<br>
+-Gradient：漸層色<br>
 -Icon state：顯示警示狀態<br>
 <br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/setting3.png)<br>
