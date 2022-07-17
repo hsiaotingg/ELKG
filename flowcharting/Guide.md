@@ -51,6 +51,8 @@ Graph Tooltips開啟後，可設定彈出圖形產生的效果<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/setting4.png)
 Color/Tooltip Mappings：處理顏色顯示<br>
 Label/Text Mappings：處理數值對應、Query結果<br>
+Link Mapping：處理圖形綁定連結<br>
+Event/Animation Mapping：處理圖形動畫顯示<br>
 綁定的方式可以透過圖形的id(可在選單Inspect查詢或修改)或label，也可以點選上圖中1的按鈕，變色後再點選想要綁定的圖形，就會將該圖形的id傳送到what裡<br>
 -When：觸發時間<br>
 -How：填充型態或內容<br>
