@@ -5,5 +5,5 @@
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/ACE.svg/pic/2.png)<br>
 我選擇在網頁上開啟SVG檔，按F12將紅色框框這段複製下來<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/ACE.svg/pic/3.png)<br>
-回到Grafana panel，點開SVG Document將剛剛複製的貼上，把User JS Render整個刪除，圖就會出現了
+回到Grafana panel，點開SVG Document將剛剛複製的貼上，把User JS Render裡預設的內容整個刪除，圖就會出現了
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/ACE.svg/pic/1.jpg)
