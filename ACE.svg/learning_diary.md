@@ -14,3 +14,6 @@
 SVG.js是一個輕量級的JavaScript庫，可用來輕鬆操作SVG和定義動畫。<br>
 SVG（Scalable Vector Graphics，可縮放向量圖形）是基於XML、用於描述二維向量圖形的一種圖形格式。SVG由W3C制定，是一個開放標準。<br>
 SVG.js中包含了大量用於定義動畫的方法，如移動、縮放、旋轉、傾斜等，具體可參閱相關演示。<br>
+
+07/25<br>
+大概知道Grafana預設的Render跟Init在做什麼，不過若要能自行寫出可能需要一段時間去學習，且SVG.js因為只限定於做SVG的處理，所以相關的教學非常少
