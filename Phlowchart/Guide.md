@@ -1,6 +1,6 @@
 ## Pholochart
 ### 介紹
-由飛利浦公司開發的插件，類似Flowcharting，需使用Infinity作為datasource，資料格式須為json，可直接在Grafana操作介面輸入資料，或是將資料放置於網站上以URL方式匯入。
+由飛利浦公司開發的插件，是一種flow chart，需使用Infinity作為datasource，支援多種資料格式：JSON、CSV、XML、HTML、UQL、TSV、GraphQL、Series。可直接在Grafana操作介面輸入資料，或是將資料放置於網站上以URL方式匯入。
 <br>
 ### 操作
 #### Step1 安裝Phlowchart、Infinity插件
@@ -18,7 +18,7 @@
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/set.png)<br>
 #### Step2 輸入資料
 開啟panel，在視覺化選擇[Phlowchart]<br>
-在這個插件的資料格式除了必須是JSON格式外，另外就是每一個方塊都需要九項如下圖資料，缺一不可。<br>
+在這個插件每一個方塊都需要九項資料(如下圖說明)，缺一不可。<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/9.png)<br>
 **這邊的id很重要，會影響到關係連結source、target的部分**<br>
 -type可以控制方塊顯示的內容 EX.twoTextFourNumber會顯示兩行文字+四個數字，oneTextOneNumber會顯示一行文字(title)、一個數字。<br>
@@ -27,17 +27,17 @@
 #### Step3 設定資料連接方向
 方塊之間的關係<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/relationship.png)<br>
-這邊的id主要是讓自己方便辨別，不會影響方塊的關係方向<br>
+這邊的id主要是方便自己辨別，不會影響方塊的關係方向<br>
 -source是源頭<br>
 -target是要指向的目標方塊<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/show%20relationship.png)<br>
-將這兩個部份分別放在不同query<br>
+將這兩個部份分別放在不同query，若資料放在網頁上，在[Source]選擇URL，貼上URL後資料一樣可以讀出。<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/query.png)<br>
-#### Step4 其他客製設定
-右側選單有其他設定<br>
+#### Step4 其他設定
+右側選單的設定<br>
 -Allow Dragging Of Nodes：開啟後可移動方塊<br>
 -Show mini map：開啟後panel右下角會顯示一個簡易小圖顯示目前的視野位子<br>
--Minimize Zoom：可設定最小視野
--Unit：單位
--Displayname：改變字段或組別的名字
--Color scheme：設定方塊內的文字、數字顏色
+-Minimize Zoom：可設定最小視野<br>
+-Unit：單位<br>
+-Displayname：改變字段或組別的名字<br>
+-Color scheme：設定方塊內的文字、數字顏色<br>
