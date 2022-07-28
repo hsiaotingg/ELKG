@@ -37,3 +37,4 @@
 右側選單有其他設定<br>
 -Allow Dragging Of Nodes 開啟後可移動方塊
 -Show mini map 開啟後panel右下角會顯示一個簡易小圖顯示目前的視野位子
+*未完
