@@ -1,4 +1,4 @@
-# Pholochart
+# Phlochart
 ## 介紹
 由飛利浦公司開發的插件，是一種flow chart，需使用Infinity作為datasource，支援多種資料格式：JSON、CSV、XML、HTML、UQL、TSV、GraphQL、Series。可直接在Grafana操作介面輸入資料，或是將資料放置於網站上以URL方式匯入。
 <br>
