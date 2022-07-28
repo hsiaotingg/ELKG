@@ -18,12 +18,19 @@
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/set.png)<br>
 #### Step2 輸入資料
 開啟panel，在視覺化選擇[Phlowchart]<br>
-在這個插件的資料格式除了必須是JSON格式外，另外就是每一個方塊都需要九項資料。<br>
+在這個插件的資料格式除了必須是JSON格式外，另外就是每一個方塊都需要九項如下圖資料，缺一不可。<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/9.png)<br>
-以及每一個方塊間的關係連結<br>
-![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/relationship.png)<br>
-
-
-
+**這邊的id很重要，會影響到關係連結source、target的部分**<br>
+-type可以控制方塊顯示的內容 EX.twoTextFourNumber會顯示兩行文字+四個數字，oneTextOneNumber會顯示一行文字(title)、一個數字。<br>
+-number一定是四個，沒有值也要填null<br>
+-url可以自行放入需要的網站連結，不須連結網站也不可忽略此項<br>
 #### Step3 設定資料連接方向
+方塊之間的關係<br>
+![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/relationship.png)<br>
+這邊的id主要是讓自己方便辨別，不會影響方塊的關係方向<br>
+source是源頭<br>
+target是方向指向方塊<br>
+![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/show%20relationship.png)<br>
+將這兩個部份分別放在不同query<br>
+![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/query.png)<br>
 #### Step4 其他客製設定
