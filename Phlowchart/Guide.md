@@ -35,6 +35,9 @@
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/query.png)<br>
 #### Step4 其他客製設定
 右側選單有其他設定<br>
--Allow Dragging Of Nodes 開啟後可移動方塊<br>
--Show mini map 開啟後panel右下角會顯示一個簡易小圖顯示目前的視野位子<br>
-*未完
+-Allow Dragging Of Nodes：開啟後可移動方塊<br>
+-Show mini map：開啟後panel右下角會顯示一個簡易小圖顯示目前的視野位子<br>
+-Minimize Zoom：可設定最小視野
+-Unit：單位
+-Displayname：改變字段或組別的名字
+-Color scheme：設定方塊內的文字、數字顏色
