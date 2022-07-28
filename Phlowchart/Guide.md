@@ -17,5 +17,13 @@
 點選後會出現資料設定，這邊先不需設定，按[Save & test]<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/set.png)<br>
 #### Step2 輸入資料
+開啟panel，在視覺化選擇[Phlowchart]<br>
+在這個插件的資料格式除了必須是JSON格式外，另外就是每一個方塊都需要九項資料。<br>
+![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/9.png)<br>
+以及每一個方塊間的關係連結<br>
+![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/relationship.png)<br>
+
+
+
 #### Step3 設定資料連接方向
 #### Step4 其他客製設定
