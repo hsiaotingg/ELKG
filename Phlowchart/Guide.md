@@ -28,9 +28,12 @@
 方塊之間的關係<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/relationship.png)<br>
 這邊的id主要是讓自己方便辨別，不會影響方塊的關係方向<br>
-source是源頭<br>
-target是方向指向方塊<br>
+-source是源頭<br>
+-target是要指向的目標方塊<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/show%20relationship.png)<br>
 將這兩個部份分別放在不同query<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/query.png)<br>
 #### Step4 其他客製設定
+右側選單有其他設定<br>
+-Allow Dragging Of Nodes 開啟後可移動方塊
+-Show mini map 開啟後panel右下角會顯示一個簡易小圖顯示目前的視野位子
