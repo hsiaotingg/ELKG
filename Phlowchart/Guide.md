@@ -27,13 +27,13 @@
 -url：可以自行放入需要的網站連結，不須連結網站也不可忽略此項<br>
 <br>
 ### Step3 設定資料連接方向
-方塊之間的關係<br>
+這部分為處理方塊之間的關係<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/relationship.png)<br>
 這邊的id主要是方便自己辨別，不會影響方塊的關係方向<br>
 -source：源頭<br>
 -target：是要指向的目標方塊<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/show%20relationship.png)<br>
-將這兩個部份分別放在不同query，若資料放在網頁上，在[Source]選擇URL，貼上URL後資料一樣可以讀出。<br>
+將這兩個部份(step2、step3)分別放在不同query，若資料放在網頁上，在[Source]選擇URL，貼上URL後資料一樣可以讀出。<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/query.png)<br>
 <br>
 ### Step4 其他設定
