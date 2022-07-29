@@ -6,11 +6,11 @@ flowcharting可以將draw.io產出圖表的各個元素綁定數據資料，再�
 *[圖片來源](https://grafana.com/grafana/plugins/agenty-flowcharting-panel/*)
 
 ## 操作與設定
-#### Step1.繪圖
+#### Step1 繪圖
 flowcharting的使用順序跟其他插件不太一樣，需要先繪圖再輸入數據。由於需要用到的多是流程圖或是架構圖，且輸入須為XML的格式，所以建議使用[draw.io](https://app.diagrams.net/)進行繪製，繪製完畢選擇輸出為XML，並將XML完整複製。
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/drawio.png)
 
-#### Step2.匯入Grafana
+#### Step2 匯入Grafana
 (須先進行安裝，安裝指令```grafana-cli plugins install agenty-flowcharting-panel```)<br>
 開啟Grafana panel，視覺化選擇FlowCharting，點開右側選單Flowchart，將Source Content預設的XML清除並貼上Step1製作的XML，左邊就會載入圖表了。<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/basic%20setting.png)
@@ -20,12 +20,12 @@ flowcharting的使用順序跟其他插件不太一樣，需要先繪圖再輸�
 -Compress/Encode：將XML加密<br>
 -Extract/Decode：解碼XML<br>
 <br>
-#### Step3.設定資料來源
+#### Step3 設定資料來源
 每個繪製好的元素都可以綁定數據，所以需要新增資料或是監控來源。根據需求在Query下指令，並在Alias設定名稱，以便後續使用。<br>
 如果Query的設定相似也可點選藍色框框的按鈕複製再行修改。
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/source.png)
 <br>
-#### Step4.設定圖形顯示
+#### Step4 設定圖形顯示
 點選右側選單Mapping，開始進行數值的綁定及圖片顯示的設定。<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/setting-1.png)
 Options<br>
@@ -47,7 +47,7 @@ Thresholds用來設定圖形展示的顏色變化<br>
 Tooltips開啟後，將滑鼠移動到圖形上，會自動顯示監控值<br>
 Graph Tooltips開啟後，可設定彈出圖形產生的效果<br>
 <br>
-#### Step5.將資料綁定圖形
+#### Step5 將資料綁定圖形
 將要呈現的資料綁定到相對應的圖形
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/flowcharting/setting4.png)
 Color/Tooltip Mappings：處理顏色顯示<br>
