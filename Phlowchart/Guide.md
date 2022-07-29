@@ -16,23 +16,26 @@
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/enter.png)<br>
 點選後會出現資料設定，這邊先不需設定，按[Save & test]<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/set.png)<br>
+<br>
 ### Step2 輸入資料
 開啟panel，在視覺化選擇[Phlowchart]<br>
 在這個插件每一個方塊都需要九項資料(如下圖說明)，缺一不可。<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/9.png)<br>
 **這邊的id很重要，會影響到關係連結source、target的部分**<br>
--type可以控制方塊顯示的內容 EX.twoTextFourNumber會顯示兩行文字+四個數字，oneTextOneNumber會顯示一行文字(title)、一個數字。<br>
--number一定是四個，沒有值也要填null<br>
--url可以自行放入需要的網站連結，不須連結網站也不可忽略此項<br>
+-type：可以控制方塊顯示的內容 EX.twoTextFourNumber會顯示兩行文字+四個數字，oneTextOneNumber會顯示一行文字(title)、一個數字。<br>
+-number：一定是四個，沒有值也要填null<br>
+-url：可以自行放入需要的網站連結，不須連結網站也不可忽略此項<br>
+<br>
 ### Step3 設定資料連接方向
 方塊之間的關係<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/relationship.png)<br>
 這邊的id主要是方便自己辨別，不會影響方塊的關係方向<br>
--source是源頭<br>
--target是要指向的目標方塊<br>
+-source：源頭<br>
+-target：是要指向的目標方塊<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/show%20relationship.png)<br>
 將這兩個部份分別放在不同query，若資料放在網頁上，在[Source]選擇URL，貼上URL後資料一樣可以讀出。<br>
 ![image](https://github.com/hsiaotingg/ELKG/blob/Grafana-plugins/Phlowchart/pics/query.png)<br>
+<br>
 ### Step4 其他設定
 右側選單的設定<br>
 -Allow Dragging Of Nodes：開啟後可移動方塊<br>
